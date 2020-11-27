@@ -13,9 +13,10 @@ while row < src.length do
     if src[row][element] < num
       num = src[row][element]
     end
-    smallest_nums << num
+    
     element += 1
   end
+  smallest_nums << num
   row += 1
 end
 
